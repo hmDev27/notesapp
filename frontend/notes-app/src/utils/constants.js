@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://localhost:8000'
+export const BASE_URL = 'https://e70aff8d-0c0f-4976-b5c6-cb37aa272772-00-8snas3v1xrw1.sisko.replit.dev/'
