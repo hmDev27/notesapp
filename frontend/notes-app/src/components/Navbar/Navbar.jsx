@@ -27,15 +27,23 @@ const Navbar = ({userInfo, onSearchNote, handleClearSearch }) => {
 
 
     return (
-    <div className="bg-white flex items-center justify-between px-6 py-2 drop-shadow">
-      <h2 className="text-xl font-medium text-black py-2">Notes သင်၏မှတ်တမ်း</h2>
-      <SearchBar value={searchQuery}
-                  onChange= {({target}) => {
-                  setSearchQuery(target.value);} }
-                  handleSearch={handleSearch}
-                  onClearSearch={onClearSearch}/>
-      <ProfileInfo userInfo={userInfo} onLogout={onLogout} />
-    </div>
+<div className="bg-white flex items-center justify-between px-6 py-2 drop-shadow">
+  <h2 className="text-xl font-medium text-black py-2 flex-shrink-0">
+    Notes သင်၏မှတ်တမ်း
+  </h2>
+
+  <div className="flex-grow mx-4">
+    <SearchBar
+      value={searchQuery}
+      onChange={({ target }) => setSearchQuery(target.value)}
+      handleSearch={handleSearch}
+      onClearSearch={onClearSearch}
+    />
+  </div>
+
+  <ProfileInfo userInfo={userInfo} onLogout={onLogout} />
+</div>
+
     )
 }
 
