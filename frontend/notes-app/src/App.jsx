@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div>
       {!backendAvailable && (
-       <div className="bg-green-100 text-green-800 p-4 m-4 rounded text-center border border-green-400">
+       <div className="bg-yellow-100 text-yellow-800 p-4 m-4 rounded text-center border border-red-400">
           ⚠️ Backend Server ကျနေသည်။ Websiteဆက်လက်အသုံးပြုနိုင်ရင် Htet-Min-Oo 09965507737 သို့ဆက်သွယ်ပါ။ 😗
         </div>
       )}
