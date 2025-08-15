@@ -23,7 +23,7 @@ const App = () => {
     <div>
       {!backendAvailable && (
         <div className="bg-yellow-100 text-yellow-800 p-4 m-4 rounded text-center border border-yellow-400">
-          ⚠️ The backend server is not running. Contact me to start it to use all features.
+          ⚠️ Backend Server ကျနေသည်။ Websiteဆက်လက်အသုံးပြုနိုင်ရင် Htet-Min-Oo 09965507737 သို့ဆက်သွယ်ပါ။ 😗
         </div>
       )}
 
