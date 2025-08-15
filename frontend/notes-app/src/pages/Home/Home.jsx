@@ -188,7 +188,7 @@ const getAllNotes = async () => {
         },
       }}
       contentLabel=""
-      className="w-[40%] max-h-3/4 bg-white rounded-md mx-auto mt-14 p-5 overflow-scroll"
+     className="w-full sm:w-[90%] md:w-[70%] lg:w-[50%] xl:w-[40%] max-h-[90vh] bg-white rounded-md mx-auto mt-14 p-5 overflow-y-auto"
     >
     <AddEditNotes
     type={openAddEditModal.type}
