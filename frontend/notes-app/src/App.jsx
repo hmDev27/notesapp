@@ -8,7 +8,7 @@ const App = () => {
   const [backendAvailable, setBackendAvailable] = useState(true);
 
   useEffect(() => {
-    fetch('https://your-backend-url.repl.co/health')  // 🔁 Replace with your actual backend URL
+    fetch('https://replit.com/@hmdev27/notes-backend')  // 🔁 Replace with your actual backend URL
       .then((res) => {
         if (!res.ok) throw new Error('Backend not OK');
         setBackendAvailable(true);
