@@ -23,7 +23,7 @@ const App = () => {
     <div>
       {!backendAvailable && (
       <div className="bg-yellow-100 text-yellow-800 p-4 m-4 rounded text-center border border-yellow-400">
-          ⚠️ Error: 503. Backend Server ကျနေသည်။ Websiteဆက်လက်အသုံးပြုနိုင်ရန် Htet-Min-Oo 0996*****37 သို့ဆက်သွယ်ပါ။ 😗
+          ⚠️ Backend Server ကျနေသည်။ Websiteဆက်လက်အသုံးပြုနိုင်ရန် Htet-Min-Oo 0996*****37 သို့ဆက်သွယ်ပါ။ 😗
         </div>
       )}
 
